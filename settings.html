@@ -37,15 +37,16 @@
             background-color: transparent;
         }
 
-        .inlineLeft,
+        /* .inlineLeft,
         .inlineRight {
             position: absolute;
-            display: inline;
-        }
+            display: block;
+        } */
 
         .inlineRight {
             margin-top: 0px;
             right: 0;
+            height: 150px;
         }
 
         .mainhr {
@@ -132,7 +133,6 @@ background: linear-gradient(180deg, rgba(235,235,235,1) 0%, rgba(221,221,221,1) 
         </div>
 
         <div>
-          <img src="./logo/lens.svg" width="22" height="22" />
           <div class="dropdown d-inline-block">
               <a class="btn nav-btn">
                 <span class="d-inline-block background">
@@ -177,7 +177,7 @@ background: linear-gradient(180deg, rgba(235,235,235,1) 0%, rgba(221,221,221,1) 
 
         <hr class="mainhr">
 
-        <div class="row border-bottom">
+        <div class="row border-bottom flex-wrap">
             <div class="col-12 col-md-3">
                 <h5>MEMBERSHIP & BILLING</h5>
                 <button class="mybutton">Cancel Membership</button>
@@ -188,7 +188,7 @@ background: linear-gradient(180deg, rgba(235,235,235,1) 0%, rgba(221,221,221,1) 
                 <p>Password: **********</p>
                 <p>Phone: 321 044 1279</p>
             </div>
-            <div class="col-12 col-md inlineRight">
+            <div class="col-12 col-md">
                 <a href="#" class="inlineRight">Change account email</a>
                 <a href="#" class="inlineRight" style="margin-top: 45px;">Change password</a>
                 <br>
@@ -198,7 +198,7 @@ background: linear-gradient(180deg, rgba(235,235,235,1) 0%, rgba(221,221,221,1) 
 
         <!-- ---second row--- -->
 
-        <div class="row mt-3">
+        <div class="row mt-3 flex-wrap">
             <div class="col-12 col-md-3">
             </div>
             <div class="col-12 col-md-4">
@@ -206,7 +206,7 @@ background: linear-gradient(180deg, rgba(235,235,235,1) 0%, rgba(221,221,221,1) 
                     alt=" paypallogo">
                 <b>admin@strive.school</b>
             </div>
-            <div class="col-12 col-md inlineRight">
+            <div class="col-12 col-md mh-100">
                 <a href="#" class="inlineRight">Update payment info</a>
                 <a href="#" class="inlineRight" style="margin-top: 45px;">Billing details</a>
             </div>
@@ -214,14 +214,14 @@ background: linear-gradient(180deg, rgba(235,235,235,1) 0%, rgba(221,221,221,1) 
 
         <!-- ---third row--- -->
 
-        <div class="row mt-3">
+        <div class="row mt-3 flex-wrap">
             <div class="col-12 col-md-3">
                 <p></p><br><br><br>
             </div>
             <div class="col-12 col-md-4">
                 <p></p>
             </div>
-            <div class="col-12 col-md inlineRight mt-5 border-top">
+            <div class="col-12 col-md mt-5 border-top">
                 <a href="#" class="inlineRight">Reedeem gift card or promo code</a>
                 <a href="#" class="inlineRight" style="margin-top: 45px;">Where to buy gift cards</a>
             </div>
@@ -229,14 +229,14 @@ background: linear-gradient(180deg, rgba(235,235,235,1) 0%, rgba(221,221,221,1) 
 
         <!-- ---fourth row--- -->
 
-        <div class="row mt-5 pb-3 pt-3 border-bottom border-top">
+        <div class="row mt-5 pb-3 pt-3 border-bottom border-top flex-wrap">
             <div class="col-12 col-md-3">
                 <h5>PLAN DETAILS</h5>
             </div>
             <div class="col-12 col-md-4">
                 <b>Premium</b> <img style="display: inline-block; max-width: 50px;" src="./assets/ultrahd.png" alt="4k">
             </div>
-            <div class="col-12 col-md inlineRight">
+            <div class="col-12 col-md">
 
                 <a href="#" class="inlineRight" style="margin-top: 0px;">Change Plan</a>
             </div>
@@ -245,7 +245,7 @@ background: linear-gradient(180deg, rgba(235,235,235,1) 0%, rgba(221,221,221,1) 
 
         <!-- ---fifth row--- -->
 
-        <div class="row pb-3 pt-3 border-bottom">
+        <div class="row pb-3 pt-3 border-bottom flex-wrap">
             <div class="col-12 col-md-3">
                 <h5>SETTINGS</h5>
             </div>
@@ -263,7 +263,7 @@ background: linear-gradient(180deg, rgba(235,235,235,1) 0%, rgba(221,221,221,1) 
                 <a href="#">Sign out of all devices</a>
                 <br>
             </div>
-            <div class="col-12 col-md inlineRight">
+            <div class="col-12 col-md">
 
 
             </div>
@@ -271,7 +271,7 @@ background: linear-gradient(180deg, rgba(235,235,235,1) 0%, rgba(221,221,221,1) 
 
         <!-- ---sixth row--- -->
 
-        <div class="row pb-3 pt-3 border-bottom">
+        <div class="row pb-3 pt-3 border-bottom flex-wrap">
             <div class="col-3">
                 <h5>MY PROFILE</h5>
             </div>
@@ -293,7 +293,7 @@ background: linear-gradient(180deg, rgba(235,235,235,1) 0%, rgba(221,221,221,1) 
                 <br>
             </div>
 
-            <div class="col-12 col-md inlineRight">
+            <div class="col-12 col-md">
                 <a href="#" class="inlineRight" style="margin-top: 0px;">Manage profiles</a>
                 <a href="#" class="inlineRight" style="margin-top: 20px;">Add profile email</a>
 
