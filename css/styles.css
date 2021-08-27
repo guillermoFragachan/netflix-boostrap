@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    color: white;
+}
+.container{
+    margin: 0 auto;
+    padding: 0px 0px 0px 0px;
+    position: relative
+}
+.row{
+    display: inline;
+    width: 300px;
+}
+.nav-item{
+    display: inline;
+}
