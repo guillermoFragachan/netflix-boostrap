@@ -47,7 +47,16 @@
         .inlineRight {
             margin-top: 0px;
             right: 0;
-            height: 150px;
+            /* height:35px; */
+            display: inline-block;
+            position: absolute;
+        }
+      
+        @media screen and (max-width: 770px) {
+            .inlineRight{
+                height: 100px;
+            }
+
         }
 
         .mainhr {
@@ -191,6 +200,7 @@ background: linear-gradient(180deg, rgba(235,235,235,1) 0%, rgba(221,221,221,1) 
             </div>
             <div class="col-12 col-md">
                 <a href="#" class="inlineRight">Change account email</a>
+                <br>
                 <a href="#" class="inlineRight" style="margin-top: 45px;">Change password</a>
                 <br>
                 <a href="#" class="inlineRight" style="margin-top: 60px;">Change phone number</a>
@@ -209,6 +219,7 @@ background: linear-gradient(180deg, rgba(235,235,235,1) 0%, rgba(221,221,221,1) 
             </div>
             <div class="col-12 col-md mh-100">
                 <a href="#" class="inlineRight">Update payment info</a>
+                <br>
                 <a href="#" class="inlineRight" style="margin-top: 45px;">Billing details</a>
             </div>
         </div>
